@@ -19,18 +19,6 @@ package-install:
 lint:
 	@poetry run ruff check .
 
-demo_1:
-	@asciinema play demo_1.cast
-
-demo_2:
-	@asciinema play demo_2.cast
-
-demo_3:
-	@asciinema play demo_3.cast
-
-demo_final:
-	@asciinema play demo_final.cast
-
 help:
 	@echo "Доступные команды:"
 	@echo "  install         - Установка зависимостей через poetry"
