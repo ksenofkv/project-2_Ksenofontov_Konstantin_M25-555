@@ -1,0 +1,32 @@
+[project]
+name = "project2-ksenofontov-konstantin-m25-555"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ksenofkv",email = "ksenof.kv@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prettytable (>=3.17.0,<4.0.0)",
+    "prompt (>=0.4.1,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.scripts]
+database = "src.primitive_db.main:main"
+project = "src.primitive_db.main:main"
+  
+[dependency-groups]
+dev = [
+    "ruff (>=0.14.5,<0.15.0)"
+]
