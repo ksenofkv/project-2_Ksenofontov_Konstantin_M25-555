@@ -1,4 +1,4 @@
-"""Константы проекта."""
+"""Константы проекта"""
 
 DB_META_FILE = 'db_meta.json'
 DATA_DIR = 'data/'

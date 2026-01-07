@@ -7,7 +7,7 @@ from .constants import VALID_TYPES
 
 
 def create_table(metadata: dict, table_name: str, columns: List[str]) -> Tuple[dict, str]:
-    """Создает новую таблицу в метаданных."""
+    """Создает новую таблицу в метаданных"""
     if table_name in metadata:
         return metadata, f'Ошибка: Таблица "{table_name}" уже существует.'
     

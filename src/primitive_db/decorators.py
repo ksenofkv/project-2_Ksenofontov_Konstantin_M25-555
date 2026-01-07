@@ -6,7 +6,7 @@ from typing import Callable, Any
 
 
 def handle_db_errors(func: Callable) -> Callable:
-    """Декоратор для обработки ошибок базы данных."""
+    """Декоратор для обработки ошибок базы данных"""
     @wraps(func)
     def wrapper(*args, **kwargs):
         try:

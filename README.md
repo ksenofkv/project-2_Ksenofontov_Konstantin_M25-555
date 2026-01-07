@@ -12,6 +12,9 @@
 
 ## Установка и запуск
 
+# Клонирование репозитория
+git clone https://github.com/ksenofkv/project-2_Ksenofontov_Konstantin_M25-555.git
+
 ```bash
 # Установка
 poetry install
@@ -92,4 +95,4 @@ make demo_3      # декораторы и обработка ошибок
 
 Константин Ксенофонтов# project-2_Ksenofontov_Konstantin_M25-555
 # project-2_Ksenofontov_Konstantin_M25-555
-# project-2_Ksenofontov_Konstantin_M25-555
+
